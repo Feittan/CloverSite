@@ -1,0 +1,441 @@
+@media only screen and (max-width: 1200px) {
+  .main_tittle {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .main_tittle {
+    font-size: 45px;
+  }
+
+  .main_content{
+    margin: 160px 0px 0px 145px;
+    padding: 0px;
+  }
+
+
+}
+
+@media only screen and (max-width: 809px) {
+  .video_media{
+    position: relative;
+    width: auto;
+  }
+
+  .video_intro{
+    max-height: 660px;
+  }
+
+  .header__logo{
+     font-size: 20px;
+     margin: 0 20px;
+  }
+
+  .main_content{
+    margin: 210px 0px 0px 80px;
+    padding: 0px;
+  }
+
+  .hamburger{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+  }
+  .menu_hamburger{
+    width: 25px;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+  }
+  .menu_hamburger::before,
+  .menu_hamburger::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+
+  }
+  .menu_hamburger::before{
+    transform: translateY(-8px);
+  }
+  .menu_hamburger::after{
+    transform: translateY(8px);
+  }
+
+  .hamburger.active .menu_hamburger{
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .hamburger.active .menu_hamburger::before{
+    transform: rotate(45deg) translate(35px,-35px);
+  }
+
+  .hamburger.active .menu_hamburger::after{
+    transform: rotate(-45deg) translate(35px,35px);
+  }
+
+  .nav{
+    position: fixed;
+    top: 70px;
+    left: -120%;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0 20px;
+  }
+  .nav_Link{
+    margin: 0 15px;
+  }
+  .nav_Link.active {
+    margin: 0px 10px 10px 10px;
+   }
+  .nav.active {
+    left: 0;
+    margin: 0 auto;
+   }
+  
+    /* ===============================Booking Section=========================== */
+
+  .section_wrapper{
+    padding: 15px 15px;
+  }
+
+  .two_blocks{
+    display: block;
+  }
+
+  .booking_inner{
+    border: 0;
+    border-radius: 0;
+  }
+
+  .line_form{
+    display: none;
+  }
+  
+  .about_main_paragraph{
+    display: none;
+  }
+
+  .about_tittle{
+    display: none;
+  }
+
+  .about_tittle_phone{
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 39px;
+    color: white;
+    margin: 10px;
+  }
+
+  
+  .form{
+    padding: 0px 15px 5px 15px;
+  }
+
+  .form_control{
+    margin: 10px 10px;
+  }
+
+  .plan_trip{
+    font-size: 22px;
+  }
+
+  .phone i{
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  .title_booking{
+    padding: 10px 10px 0px 10px;
+    margin-right: 0px ;
+  }
+
+  .btn_input{
+    margin-top: 10px;
+  }
+
+  .checkbox{
+    display: none;
+  }
+
+  .about_main_tittle{
+    margin: 0;
+  }
+
+  .item_services_third{
+    padding: 0px 5px;
+  }
+
+   /* ===============================Footer=========================== */
+
+   .footer{
+    padding: 40px 10px 0px 40px;
+   }
+
+   .footer_social_header{
+    display: none;
+   }
+
+   .footer_inner{
+     display: block;
+   }
+
+   .footer_text{
+     display: none;
+   }
+
+   .footer_col-first {
+      width: 100%;
+   }
+
+    .footer_col-second{
+      width: 100%;
+  }
+
+  .footer_col-third{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .subcribe_input{
+    width: 55%;
+  } 
+
+  .subcribe_btn{
+    width: 38%;
+  } 
+
+  .subcribe{
+    margin-bottom: 15px;
+  } 
+
+  .footer_logo{
+    margin-bottom: 15px;
+  }
+
+  .footer_tittle{
+    margin: 15px;
+  }
+
+  .copyright{
+    padding: 0px 0px 30px 0px ;
+    text-align: start;
+  }
+
+  .contact_item{
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav_Link{
+    margin: 10px 10px 10px 10px;
+  }
+  .main_tittle {
+    font-size: 45px;
+  }
+  .main_content{
+    margin: 200px 0 0 40px;
+    padding: 0px;
+  }
+  .main_search-box{
+    display: none;
+  }
+  .span_tittle{
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  .btn{
+    padding: 2px 20px;
+  }
+  .span_tittle:nth-child(5){
+    margin: 0px;
+  }
+  .btn_reg{
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid white;
+    color: white;
+    padding: 2px 35px;
+    transition: background 0.1s linear, color 0.1s linear;
+    margin: 20px 25px 20px 0px;
+  }
+  .btn_reg:hover {
+    background-color: rgb(247, 241, 241);
+    color: black;
+  }
+
+ /* ===============================Booking Section=========================== */
+
+  .section_wrapper{
+    padding: 15px 15px;
+  }
+
+  .two_blocks{
+    display: block;
+  }
+
+  .booking_inner{
+    border: 0;
+    border-radius: 0;
+  }
+
+  .line_form{
+    display: none;
+  }
+  
+  .about_main_paragraph{
+    display: none;
+  }
+
+  .about_tittle{
+    display: none;
+  }
+
+  .about_tittle_phone{
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 39px;
+    color: white;
+    margin: 10px;
+  }
+
+  
+  .form{
+    padding: 0px 15px 5px 15px;
+  }
+
+  .form_control{
+    margin: 10px 10px;
+  }
+
+  .plan_trip{
+    font-size: 22px;
+  }
+
+  .phone i{
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  .title_booking{
+    padding: 10px 10px 0px 10px;
+    margin-right: 0px ;
+  }
+
+  .btn_input{
+    margin-top: 10px;
+  }
+
+  .checkbox{
+    display: none;
+  }
+
+  .about_main_tittle{
+    margin: 0;
+  }
+
+  .item_services_third{
+    padding: 0px 5px;
+  }
+
+  /* ===============================Our team=========================== */
+  .snow_school{
+    display: block;
+  }
+
+  .team_blocks{
+    display: block;
+  }
+
+  .snow_inner_main{
+    display: none;
+  }
+
+  .snow_inner_main_phone{
+    display: block;
+  }
+
+  .snow_inner{
+    font-size: 14px;
+  }
+
+  .team_our{
+    padding: 45px 10px;
+  }
+
+  .cards_all{
+    margin-top: 15px;
+  }
+
+  .team_our{
+   background: url("../src/image/back/gg.jpg")  no-repeat;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .nav_Link{
+    margin: 10px 10px 10px 10px;
+  }
+  .main_tittle {
+    font-size: 35px;
+  }
+  
+  .main_search-box{
+    display: none;
+  }
+  .span_tittle{
+    font-size: 15px;
+   margin: 0 10px;
+  }
+  .btn{
+    padding: 2px 20px;
+  }
+  .span_tittle:nth-child(4){
+    margin: 0px;
+  }
+  .btn_reg{
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid white;
+    color: white;
+    padding: 2px 25px;
+    transition: background 0.1s linear, color 0.1s linear;
+    margin: 20px 25px 20px 0px;
+  }
+  .btn_reg:hover {
+    background-color: rgb(247, 241, 241);
+    color: black;
+  }
+  
+}

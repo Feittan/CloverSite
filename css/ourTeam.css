@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700;800&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #171719;
+  line-height: 1.6;
+  font-family: "Montserrat";
+}
+
+.team_container{
+  width: 100%;
+  max-width: 700px;
+}
+
+.team_our{
+  width: 100%;
+  height: 100vh;
+  background: url("../src/image/back/holly.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 40px 145px;
+}
+
+.team_tittle{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.cards_all{
+  display: flex;
+}
+
+.cards_item{
+  flex: 1 1 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.cards_tittle{
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.cards_text{
+  color: white;
+  font-weight: 200;
+}
+
+
+.team_blocks{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.team_in{
+  flex: 1;
+}
+
+.snow_school{
+  flex: 1;
+}
+
+.snow_tittle{
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.snow_tittle_main{
+  margin-bottom: 10px;
+}
+
+.snow_inner{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 35px;
+  color: white;
+}
+
+.snow_inner_main_phone{
+  display: none;
+}
+
+.snow_skils{
+  display: flex;
+  margin-top: 15px;
+}
+
+.skils_item{
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+}
+
+.skils_number{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.skils_tittle{
+  color: white;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.member_img{
+  max-width: 110px;
+  width: 100%;
+  height: 110px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.social_media{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.65);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+   transition: all 0.5s ease;
+}
+
+.member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.member_img .social_media .fab{
+  color:white;
+  font-size: 18px;
+}
+
+.member_img:hover .social_media{
+  transform: scale(1);
+}
+
+
+/* ==============GALLERY============== */
+
+.gallery_photo{
+  cursor: pointer;
+}
+
+.gallery_col{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.gallery_item{
+  display: block;
+  flex: 25%;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+
+.gallery_img{
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  transition: all .5s ease;
+}
+
+.gallery_info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity .5s ease;
+    z-index: 2;
+}
+
+.gallery_item:hover .gallery_info{
+  opacity: 1;
+}
+
+.gallery_tittle{
+  font-size: 16px;
+  transition: all .5s ease;
+}
+

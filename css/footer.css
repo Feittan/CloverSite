@@ -1,0 +1,204 @@
+.footer{
+    padding:60px 120px 0px 120px ;
+    margin-top: auto;
+}
+
+.footer_inner{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_col-first{
+   width: 40%;
+   margin-right:40px ;
+}
+
+
+.footer_col-second{
+   width: 29%;
+}
+
+.footer_col-third{
+    width: 22%;
+    margin-left: 70px;
+}
+
+.footer_container{
+    width: 100%;
+    max-width: 1400px;
+}
+
+.footer_logo{
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 29px;
+    margin: 0 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.footer_text{
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.footer_social_header{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer_social_content{
+    color: white;
+    font-size: 18px;
+    font-weight: 200px;
+}
+
+.footer_social_content a{
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.subscribe{
+    width: 100%;
+    max-width: 520px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.subcribe_input{
+    width: 65%;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-family:"Montserrat";
+    height: 40px;
+    line-height: 1.1;
+    outline: none;
+}
+
+.subcribe_input::placeholder{
+   font-size: 17px;
+}
+
+.subcribe_btn{
+    width: 28%;
+    height: 40px;
+    font-size: 16px;
+    padding: 12px 20px;
+    font-family:"Montserrat",sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #2E8B57;
+    color: white;
+    font-weight: 600;
+}
+
+.footer_tittle{
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.blogs_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.blogs_img{
+    width: 240px;
+    height: 100px;
+}
+
+.blogs_content{
+    padding-left: 15px;
+}
+
+.blogs_link{
+    text-decoration: none;
+    color: white;
+}
+
+.blogs_link:hover{
+    text-decoration: underline;
+}
+
+.blogs_content p{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.copyright{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.contact_item{
+    color: white;
+    font-size: 18px;
+}
+
+.contact_phone a{
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+.contact_phone a:hover{
+    color: blue;
+}
+
+.contact_email a{
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    transition: all .3s ease;
+    margin-left: 5px;
+}
+
+.contact_email a:hover{
+    color: blue;
+}
+
+.contact_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact_address{
+    font-size: 16px;
+}
+
+.contact_address label{
+    font-size: 18px;
+}
+
+.contact_address i{
+    font-size: 20px;
+}
+
+.email_inner{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <link rel="stylesheet" href="../css/headerBooking.css" />
+    <link rel="stylesheet" href="../css/ourTeam.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/adaptive.css" />
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/dark.css">
+    <title>Clover</title>
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header_container _container">
+            <div class="header__inner">
+                <div class="header__logo">clover</div>
+                <nav class="nav">
+                    <a class="nav_Link" href="#">Home</a>
+                    <a class="nav_Link" href="#">Hot tours</a>
+                    <a class="nav_Link" href="#">Shop</a>
+                    <a class="nav_Link" href="#">About</a>
+                    <a class="nav_Link" href="#">Contacts</a>
+                    <a class="btn" href=" " target="_blank">Join us</a>
+                </nav>
+
+                <div class="hamburger">
+                    <div class="menu_hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+            <div class="main_inner">
+                <div class="main_container _container">
+                    <div class="main_content">
+                        <h1 class="main_tittle">Best<br> Carpathian<br> Resorts</h1>
+                        <a class="btn_reg" href=" " target="_self">Book your stay</a>
+                        <div class="main_search-box">
+                            <cov-input class="saf"></cov-input>
+                            <input type="text" class="search-txt" placeholder="Start your booking">
+                            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                        </div> 
+                        <div class="main_popular-titlle">
+                            <span class="span_popular">popular:</span>
+                            <a class="span_tittle" href="#">Bukovel</a>
+                            <a class="span_tittle" href="#">Jaremcze</a>
+                            <a class="span_tittle" href="#">Polianski</a>
+                            <a class="span_tittle" href="#">Pilipets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="video_intro">
+            <div class="video">
+                <video class="video_media" src="../src/image/back/VideoHeader1.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+
+        <section class="section_booking">
+            <div class="section_img">
+                <div class="section_wrapper">
+                    <div class="two_blocks">
+                        <div class="booking">
+                            <div class="booking_container">
+                                <div class="booking_inner">
+                                    <div class="title_booking">
+                                        <p class="plan_trip">PLAN YOUR TRIP</p>
+                                        <div class="phone">
+                                            <i class="fa-solid fa-phone-volume"></i>
+                                            <a href="tel:(080)-355-3535">(080)-355-3535</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="line_form"></div>
+                                    <form class="form" id="form">
+                                        <div class="first_row">
+                                            <div class="form_control">
+                                                <label>Name</label>
+                                                <input type="text" id="username">
+                                                <i class="fas fa-check-circle"></i>
+                                                <i class="fas fa-exclamation-circle"></i>
+                                                <small>Error message</small>
+                                            </div>
+                                            <div class="form_control">
+                                                <label>Phone</label>
+                                                <input type="tel" id="phone">
+                                                <i class="fas fa-check-circle"></i>
+                                                <i class="fas fa-exclamation-circle"></i>
+                                                <small>Error message</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="second_row">
+                                            <div class="form_control">
+                                                <label>Check In:</label>
+                                                <input type="datetime-local" placeholder="Select DateTime"
+                                                    id="check_in">
+                                                <i class="fas fa-check-circle"></i>
+                                                <i class="fas fa-exclamation-circle"></i>
+                                                <small>Error message</small>
+                                            </div>
+                                            <div class="form_control">
+                                                <label>Check Out:</label>
+                                                <input type="datetime-local" placeholder="Select DateTime"
+                                                    id="check_out">
+                                                <i class="fas fa-check-circle"></i>
+                                                <i class="fas fa-exclamation-circle"></i>
+                                                <small>Error message</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="third_row">
+                                            <div class="form_control">
+                                                <label>Adults:</label>
+                                                <input type="text" id="adults">
+                                                <i class="fas fa-check-circle"></i>
+                                                <i class="fas fa-exclamation-circle"></i>
+                                                <small>Error message</small>
+                                            </div>
+
+                                            <div class="form_control">
+                                                <label>Children:</label>
+                                                <input type="text" id="children">
+                                                <i class="fas fa-check-circle"></i>
+                                                <i class="fas fa-exclamation-circle"></i>
+                                                <small>Error message</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="checkbox">
+                                            <input class="checkbox_input" type="checkbox" id="checkbox_1">
+                                            <label class="agreed" for="checkbox_1">I AGREE THAT MY SUBMITTED DATA IS
+                                                BEING
+                                                COLLECTED
+                                                AND
+                                                STORED.</label>
+                                        </div>
+                                        <div class="btn_check">
+                                            <button class="btn_input">CHECK AVAILABILITY</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_block">
+                            <div class="about">
+                                <div class="about_container _container">
+                                    <div class="about_inner">
+                                        <div class="about_main_tittle">
+                                            <h2 class="about_tittle">about us</h2>
+                                            <h2 class="about_tittle_phone">What do we offer:</h2>
+                                        </div>
+                                        <div class="about_main_paragraph">
+                                            <p class="about_paragraph"> To those who wish to experiense the best holiday
+                                                time
+                                                ever, we are excited to offer unlimited fun on the slopes, homey
+                                                cosiness,
+                                                wonderful views and snow activities. All this selection is presented in
+                                                a
+                                                great
+                                                variety for any taste, age and skill.
+                                                <br>
+                                                We are not saying mountains has special powers, but a lot of magical
+                                                things
+                                                do happen here.
+
+                                            </p>
+                                        </div>
+
+        
+
+                                        <div class="about_services">
+                                            <div class="item_services_first">
+                                                <div class="image_wrapper">
+                                                    <img class="image_services" src="../src/image/back/children.svg"
+                                                        alt="Error">
+                                                </div>
+                                                <div class="services_tittle">CHILDREN GROUPS LESSONS</div>
+                                            </div>
+
+                                            <div class="item_services_second">
+                                                <div class="image_wrapper">
+                                                    <img class="image_services" src="../src/image/back/adul.svg"
+                                                        alt="Error">
+                                                </div>
+                                                <div class="services_tittle">ADULT GROUPS LESSONS</div>
+                                            </div>
+
+                                            <div class="item_services_third">
+                                                <div class="image_wrapper">
+                                                    <img class="image_services" src="../src/image/back/advanced.svg"
+                                                        alt="Error">
+                                                </div>
+                                                <div class="services_tittle">ADVANCED GROUP LESSONS</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="team_our">
+            <div class="team_blocks">
+                <div class="team_in">
+                    <div class="team_container">
+                        <div class="team_inner">
+                            <div class="title_team">
+                                <h2 class="team_tittle">our team</h2>
+                            </div>
+                            <div class="cards_all">
+                                <div class="cards_item">
+                                    <div class="member_img">
+                                        <img class="cards_image" src="../src/image/back/team/seopes.svg" alt="Error">
+                                        <a class="social_media" href="#" target="_blank">
+                                            <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                                            <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                                            <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                                        </a>
+                                    </div>
+                                    <div class="cards_tittle">Good boy Cash</div>
+                                    <div class="cards_text">SEO</div>
+                                </div>
+                                <div class="cards_item">
+                                    <div class="member_img">
+                                        <img class="cards_image" src="../src/image/back/team/chel.svg" alt="Error">
+                                        <a class="social_media" href="#" target="_blank">
+                                            <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                                            <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                                            <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                                        </a>
+                                    </div>
+                                    <div class="cards_tittle">James Balaklava</div>
+                                    <div class="cards_text">Pro-Instructor</div>
+                                </div>
+                                <div class="cards_item">
+                                    <div class="member_img">
+                                        <img class="cards_image" src="../src/image/back/team/pro.svg" alt="Error">
+                                        <a class="social_media" href="#" target="_blank">
+                                            <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                                            <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                                            <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                                        </a>
+                                    </div>
+                                    <div class="cards_tittle">James Balaklava</div>
+                                    <div class="cards_text">Pro-Instructor</div>
+                                </div>
+                            </div>
+
+                            <div class="cards_all">
+                                <div class="cards_item">
+                                    <div class="member_img">
+                                        <img class="cards_image" src="../src/image/back/team/purple.svg" alt="Error">
+                                        <a class="social_media" href="#" target="_blank">
+                                            <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                                            <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                                            <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                                        </a>
+                                    </div>
+                                    <div class="cards_tittle">James Balaklava</div>
+                                    <div class="cards_text">Instructor</div>
+                                </div>
+                                <div class="cards_item">
+                                    <div class="member_img">
+                                        <img class="cards_image" src="../src/image/back/team/girl.svg" alt="Error">
+                                        <a class="social_media" href="#" target="_blank">
+                                            <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                                            <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                                            <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                                        </a>
+                                    </div>
+                                    <div class="cards_tittle">James Balaklava</div>
+                                    <div class="cards_text">Instructor</div>
+                                </div>
+                                <div class="cards_item">
+                                    <div class="member_img">
+                                        <img class="cards_image" src="../src/image/back/team/John.svg" alt="Error">
+                                        <a class="social_media" href="#" target="_blank">
+                                            <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                                            <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                                            <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                                        </a>
+                                    </div>
+                                    <div class="cards_tittle">James Balaklava</div>
+                                    <div class="cards_text">Instructor</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snow_school">
+                    <div class="snow_all">
+                        <div class="snow_tittle_main">
+                            <h2 class="snow_tittle">snowboard school</h2>
+                        </div>
+                        <div class="snow_inner_main">
+                            <p class="snow_inner">Clover Snowboard School is the first snowboard school with probably
+                                the best riders from the valley.Our preference naturally focuses on backcountry and
+                                off-piste riding.
+                                Team consists of local, experienced and certified snowboard instructors.Instructors and
+                                official UIAGM mountain guides, give you the unique opportunity to discover the ultimate
+                                powder spots, under maximum security and always with loads of
+                                fun.<br>To inquire about ski lessons or book a ski instructor or guide, please contact
+                                our ski school office.</p>
+                        </div>
+
+                        <div class="snow_inner_main_phone">
+                            <p class="snow_inner">Our preference naturally focuses on backcountry and
+                                off-piste riding.
+                                Team consists of local, experienced and certified snowboard instructors.Instructors and
+                                official UIAGM mountain guides, give you the unique opportunity to discover the ultimate
+                                powder spots.
+                        </div>
+
+
+                        <div class="snow_skils">
+                            <div class="skils_item">
+                                <div id="out" class="skils_number" data-max="648">0</div>
+                                <div class="skils_tittle">HAPPY CLIENTS</div>
+                            </div>
+
+                            <div class="skils_item">
+                                <div id="out" class="skils_number" data-max="58">0</div>
+                                <div class="skils_tittle">AWARDS</div>
+                            </div>
+
+                            <div class="skils_item">
+                                <div id="out" class="skils_number" data-max="158">0</div>
+                                <div class="skils_tittle">REACHED TOPS</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="gallery">
+            <div class="gallery_photo">
+                <div class="gallery_col">
+                    <a href="" class="gallery_item" target="_blank">
+                        <img class="gallery_img" src="../src/image/back/gallery/1.jpg" alt="">
+                        <div class="gallery_info">
+                            <div class="gallery_tittle"> MAKING WAVES ON THE SLOPES</div>
+                        </div>
+                    </a>
+                    <a href="" class="gallery_item" target="_blank">
+                        <img class="gallery_img" src="../src/image/back/gallery/2.jpg" alt="">
+                        <div class="gallery_info">
+                            <div class="gallery_tittle">COMMUNITY AND PEOPLE MOUNTHOOD</div>
+                        </div>
+                    </a>
+                    <a href="" class="gallery_item" target="_blank">
+                        <img class="gallery_img" src="../src/image/back/gallery/3.jpg" alt="">
+                        <div class="gallery_info">
+                            <div class="gallery_tittle">COMPETITIONS PLACES</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_col">
+                    <a href="" class="gallery_item" target="_blank">
+                        <img class="gallery_img" src="../src/image/back/gallery/4.jpg" alt="">
+                        <div class="gallery_info">AVALANCHE SAFETY GEAR: HOW TO CHOOSE</div>
+                    </a>
+                    <a href="" class="gallery_item" target="_blank">
+                        <div class="gallery_info">
+                            <div class="gallery_tittle">A PERFECT DAY FOR SNOWBOARDING</div>
+                        </div>
+                        <img class="gallery_img" src="../src/image/back/gallery/5.jpg" alt="">
+                    </a>
+                    <a href="" class="gallery_item" target="_blank">
+                        <div class="gallery_info">
+                            <div class="gallery_tittle">CLOVER NATIONAL PARK</div>
+                        </div>
+                        <img class="gallery_img" src="../src/image/back/gallery/6.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_inner">
+                <div class="footer_col footer_col-first">
+                    <div class="footer_logo">CLOVER</div>
+                    <div class="footer_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+                        possimus
+                        accusantium odit aspernatur perspiciatis blanditiis soluta eos totam.</div>
+                    <div class="footer_social">
+                        <div class="footer_social_header">
+                            <b>10k</b> followers
+                        </div>
+
+                        <div class="footer_social_content">
+                            <p>Follow us:</p> 
+                            <a href="#" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <form class="subscribe" action="/" method="post">
+                        <input class="subcribe_input" type="email" name="name" placeholder="Your email...">
+                        <button class="subcribe_btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class="footer_col footer_col-second">
+                    <div class="footer_tittle">blogs</div>
+
+                    <div class="blogs">
+                        <div class="blogs_item">
+                            <img class="blogs_img" src="../src/image/back/footer/1.jpg" alt="">
+                            <div class="blogs_content">
+                                <a class="blogs_link" href="#">Lorem ipsum dolor sit amet consectetur</a>
+                                <p>Jan 10, 2023</p>
+                            </div>
+                        </div>
+
+                        <div class="blogs_item">
+                            <img class="blogs_img" src="../src/image/back/footer/2.jpg" alt="">
+                            <div class="blogs_content">
+                                <a class="blogs_link" href="#">Lorem ipsum dolor sit amet consectetur</a>
+                                <p>Jan 12, 2023</p>
+                            </div>
+                        </div>
+
+                        <div class="blogs_item">
+                            <img class="blogs_img" src="../src/image/back/footer/3.jpg" alt="">
+                            <div class="blogs_content">
+                                <a class="blogs_link" href="#">Lorem ipsum dolor sit amet consectetur</a>
+                                <p>Jan 15, 2023</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="footer_col footer_col-third">
+                    <div class="footer_tittle">contact us</div>
+
+                    <div class="contact_footer">
+                        <div class="contact_item">
+                            <span class="contact_address">
+                                <label>Address:</label>
+                                <br>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bukovel,
+                                <br>
+                                Street Bandera,4308
+                            </span>
+                        </div>
+
+                        <div class="contact_item">
+                            <span class="contact_phone">
+                                <label>Phone:</label>
+                                <br>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <a href="tel:(080)-355-3535">(080)-355-3535</a>
+                            </span>
+                        </div>
+
+                        <div class="contact_item">
+                            <span class="contact_email">
+                                <label>Email:</label>
+                                <br>
+                                <div class="email_inner">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <a href="cloverski@gmail.com">cloverski@gmail.com</a>
+                                </div>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright © 2023. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/176dedeae3.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/book.js"></script>
+    <script src="../js/numbers.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script>
+        config = {
+            enableTime: true,
+            dateFormat: "Y-m-d H:i",
+            altInput: true,
+            altFormat: "M j, Y (h:S K)"
+        }
+        flatpickr("input[type=datetime-local]", config);
+    </script>
+</div>
+</body>
+
+</html>
