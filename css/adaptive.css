@@ -2,6 +2,59 @@
   .main_tittle {
     font-size: 60px;
   }
+
+  .main_content{
+    margin: 160px 0px 0px 145px;
+    padding: 0px;
+  }
+
+  .about_block{
+    margin-left: 30px;
+  }
+
+  .checkbox{
+    display: none;
+  }
+
+  .form{
+    padding: 10px 15px 15px 15px;
+  }
+
+  .about_main_paragraph_phone{
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .about_main_paragraph{
+    display: none;
+  }
+
+  .snow_all{
+    margin-left: 30px;
+  }
+  
+  .team_our{
+    padding: 40px 45px;
+  }
+
+  .snow_inner{
+    font-size: 14px;
+  }
+
+  .footer{
+    padding: 50px 40px 0px 40px;
+  }
+
+  .subcribe_btn{
+    font-size: 12px;
+    width: 38%;
+
+  }
+  
 }
 
 @media only screen and (max-width: 992px) {
@@ -14,7 +67,52 @@
     padding: 0px;
   }
 
+  .about_block{
+    margin-left: 30px;
+  }
 
+  .checkbox{
+    display: none;
+  }
+
+  .form{
+    padding: 10px 15px 15px 15px;
+  }
+
+  .about_main_paragraph_phone{
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .about_main_paragraph{
+    display: none;
+  }
+
+  .snow_all{
+    margin-left: 30px;
+  }
+  
+  .team_our{
+    padding: 40px 45px;
+  }
+
+  .snow_inner{
+    font-size: 14px;
+  }
+
+  .footer{
+    padding: 50px 40px 0px 40px;
+  }
+
+  .subcribe_btn{
+    font-size: 12px;
+    width: 38%;
+
+  }
 }
 
 @media only screen and (max-width: 809px) {
@@ -130,6 +228,10 @@
   }
   
   .about_main_paragraph{
+    display: none;
+  }
+
+  .about_main_paragraph_phone{
     display: none;
   }
 
@@ -399,7 +501,7 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
   .nav_Link{
     margin: 10px 10px 10px 10px;
   }
@@ -436,6 +538,10 @@
   .btn_reg:hover {
     background-color: rgb(247, 241, 241);
     color: black;
+  }
+
+  .snow_all{
+    display: none;
   }
   
 }

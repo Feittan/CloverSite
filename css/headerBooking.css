@@ -369,25 +369,25 @@ input.form-control.input{
 /* ===============================CHECK ROWS=========================== */
 
 .form_control.success input{
-  border-color:#0a890a	 ;
+  border-color:#7fe757	 ;
 }
 
 .form_control.error input{
-  border-color: rgb(192, 13, 13);
+  border-color: #ff4040 ;
 }
 
 .form_control.success i.fa-check-circle{
   visibility: visible;
-  color: #0a890a	;
+  color: #7fe757	;
 }
 
 .form_control.error i.fa-exclamation-circle{
   visibility: visible;
-  color: rgb(192, 13, 13);
+  color: #ff4040 ;
 }
 
 .form_control.error small{
-  color:rgb(192, 13, 13) ;
+  color:#ff4040 ;
   visibility: visible;
 }
 /* ===============================FORMS=========================== */
@@ -469,6 +469,10 @@ input.form-control.input{
 
 .about_main_tittle{
   margin-bottom: 10px;
+}
+
+.about_main_paragraph_phone{
+  display: none;
 }
 
 .about_tittle{
