@@ -1,2 +1,2 @@
-# CloverSite
-https://feittan.github.io/CloverSite/
+# Clover
+## Website design by me
